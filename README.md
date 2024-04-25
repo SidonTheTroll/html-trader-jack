@@ -1,5 +1,10 @@
 # HTML Trader Jack
 
+<div align="center">
+    <img src='https://img.shields.io/github/repo-size/SidonTheTroll/html-trader-jack?label=Repo%20Size&style=flat&logo=json&logoColor=FFFFFF&labelColor=%2307234f&color=%23066191'>
+    <img src='https://img.shields.io/badge/GPLv3-License?style=flat&logo=gnu&logoColor=white&label=License&labelColor=ab6d03&color=aba503'>
+</div>
+
 This extension adds even more snippets to VSCode and (probably) doesn't show any errors. 
 
 ## Usage 
