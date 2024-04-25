@@ -1,0 +1,98 @@
+{
+    
+    "align": {
+        "prefix": "align",
+        "body": "align=\"$1\"",
+        "description": "HTML - Defines align",
+        "scope": "text.html"
+    },
+    "bdi": {
+        "prefix": "bdi",
+        "body": "<bdi>$1</bdi>$2",
+        "description": "HTML - Used to isolate text that is of unknown directionality",
+        "scope": "text.html"
+    },
+    "cited-blockquote": {
+        "prefix": "cite-blockquote",
+        "body": [
+            "<blockquote cite=\"$2\">",
+            "\t$1",
+            "</blockquote>"
+            ],
+        "description": "Inserts Cited Blockquote"
+    },
+    "button-type": {
+        "prefix": "button-type",
+        "body": "<button type=\"$1\">$2</button>$3",
+        "description": "HTML - Defines a push button",
+        "scope": "text.html"
+    },
+    "datalist": {
+        "prefix": "datalist",
+        "body": [
+            "<datalist>",
+            "\t$1",
+            "</datalist>"
+            ],
+        "description": "HTML - Defines a dropdown list",
+        "scope": "text.html"
+    },
+    "dialog": {
+        "prefix": "dialog",
+        "body": "<dialog>$1</dialog>$2",
+        "description": "HTML - Defines a dialog     (conversation)",
+        "scope": "text.html"
+    },
+    "mark": {
+        "prefix": "mark",
+        "body": "<mark>$1</mark>$2",
+        "description": "HTML - Defines marked text",
+        "scope": "text.html"
+    },
+    "menuitem": {
+        "prefix": "menuitem",
+        "body": "<menuitem>$1</menuitem>$2",
+        "description": "HTML - Defines a menu item  [firefox only]",
+        "scope": "text.html"
+    },
+    "meter": {
+        "prefix": "meter",
+        "body": "<meter value=\"$1\">$2</meter>$3",
+        "description": "HTML - Defines measurement within   a predefined range",
+        "scope": "text.html"
+    },
+    "output": {
+        "prefix": "output",
+        "body": "<output name=\"$1\" for=\"$2\">$3</    output>$4",
+        "description": "HTML - Defines some types of    output",
+        "scope": "text.html"
+    },
+    "progress": {
+        "prefix": "progress",
+        "body": "<progress value=\"$1\" max=\"$2\">$3</ progress>$4",
+        "description": "HTML - Defines progress of a task   of any kind",
+        "scope": "text.html"
+    },
+    "rt": {
+        "prefix": "rt",
+        "body": "<rt>$1</rt>$2",
+        "description": "HTML - Defines explanation to ruby  annotations",
+        "scope": "text.html"
+    },
+    "ruby": {
+        "prefix": "ruby",
+        "body": [
+            "<ruby>",
+            "$1",
+            "</ruby>"
+            ],
+        "description": "HTML - Defines ruby annotations",
+        "scope": "text.html"
+    },
+    "time": {
+        "prefix": "time",
+        "body": "<time datetime=\"$1\">$2</time>$3",
+        "description": "HTML - Defines a date/time",
+        "scope": "text.html"
+    }
+}

@@ -1,0 +1,35 @@
+{
+	"name": "html-trader-jack",
+	"displayName": "HTML Trader Jack",
+	"description": "Addes even more HTML tags to be used with VSCode and VSCodium",
+	"version": "1.0",
+	"publisher": "sidonthetroll",
+	"icon": "images/icon.png",
+	"engines": {
+		"vscode": "^1.9.1"
+	},
+	"galleryBanner": {
+		"color": "#1E81C1",
+		"theme": "light"
+	},
+	"categories": [
+		"Snippets"
+	],
+	"contributes": {
+		"snippets": [
+			{
+				"language": "html",
+				"path": "./snippets/snippets.json"
+			}
+		]
+	},
+	"license": "GPL-3.0",
+	"bugs": {
+		"url": "https://github.com/sidonthetroll/html-trader-jack/issues"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/sidonthetroll/html-trader-jack.git"
+	},
+	"homepage": "https://github.com/sidonthetroll/html-trader-jack/blob/master/README.md"
+}

@@ -1,0 +1,23 @@
+{
+    "source": {
+        "prefix": "source-extra",
+        "body": "<source src=\"$1\" type=\"$2\">$3",
+        "description": "HTML - Defines media resource",
+        "scope": "text.html"
+        },
+    "track": {
+        "prefix": "track",
+        "body": "<track src=\"$1\" kind=\"$2\" srclang=\"$3\" label=\"$4\">$5",
+        "description": "HTML - Defines a table row",
+        "scope": "text.html"
+        },
+    "video": {
+        "prefix": "video",
+        "body": [
+            "<video width=\"$1\" height=\"$2\" controls>",
+            "\t$3",
+            "</video>"],
+        "description": "HTML - Defines a video",
+        "scope": "text.html"
+    }
+}
